@@ -75,12 +75,20 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .imagen1{
-    background-color: azure;
-    width: 900px;
-    height: 600px;
-    position: relative;
-    left: 100px;
-    margin-top: 6%;
-    
+    background-color: aliceblue;
+    display: inline-block;
+    position: absolute;
+    height: var(--img-height);
+    width: var(--img-width);
+    margin: auto;
+    left: 0;
+    right: 10;
+    top: 20;
+}
+.imagen1 img {
+    width: var(--img-width);
+    height: var(--img-height);
+    object-fit: contain;
 }
