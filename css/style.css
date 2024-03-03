@@ -147,7 +147,7 @@ header{
     background: var(--color-secundary);
     position: relative;
     width: 100%;
-    height: 2000px;
+    height: 4000px;
     margin-top: 20px;
     top: -120px;
     z-index: -1;
@@ -173,3 +173,43 @@ header{
     right: 0;
 }
 
+.fondo{
+    position: absolute;
+    margin-top: -3300px;
+    z-index: -1;
+    width: 2440px;
+    height: 2693px;
+}
+.plato1{
+    position: absolute;
+    margin-top: -3300px;
+    right: 0px;
+    z-index: -1;
+    width: 600px;
+}
+.plato2{
+    position: absolute;
+    margin-top: -2300px;
+    right: 0px;
+    z-index: -1;
+    width: 1400px;
+}
+.plato3{
+    position: absolute;
+    margin-top: -1650px;
+    left: 0px;
+    z-index: -1;
+    width: 900px;
+}
+.titulo{
+    position: absolute;
+    margin-top: -3000px;
+    left: 150px;
+    color: var(--color-font);
+    font-size: 65px;
+    line-height: 75px;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
